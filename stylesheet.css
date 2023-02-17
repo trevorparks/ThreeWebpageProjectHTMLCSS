@@ -156,8 +156,10 @@ margin: 20px;
 justify-content: center;
 }
 form{
-  max-width: 100%;
-width: 100%;
+width: 70%;
+display: flex;
+flex-direction: column;
+
 }
 #text{
   width: 80%
@@ -168,6 +170,7 @@ width: 100%;
   gap: 100px;
   background-color: #E0E1DD;
   flex-shrink: 1;
+  width:80%;
 }
 
 #textarea{
@@ -177,7 +180,7 @@ width: 100%;
 }
 .submit{
   
-  min-width: 10%
+  max-width: 80%
 }
 .radio-wrapper1{
 
@@ -186,5 +189,8 @@ width: 100%;
 
 }
 .radio-wrapper3{
+
+}
+li{
 
 }
