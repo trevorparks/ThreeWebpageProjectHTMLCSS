@@ -1,4 +1,41 @@
 
+/* color pallette: https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd */
+@media (max-width: 800px) and (min-width: 10px) {
+.main-container{
+  display: flex;
+  flex-flow: row wrap;
+gap: 10px;
+max-width: 100%;
+width: 100%;
+background-color: #778DA9;
+}
+.side-container{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  max-width: 100%;
+  width: 100%;
+  background-color: #1B263B;
+}
+}
+@media (max-width: 2000px) and (min-width: 800px) {
+  .main-container{
+    display: flex;
+    flex-flow: row wrap;
+  gap: 10px;
+  max-width: 100%;
+  width: 75%;
+  background-color: #778DA9;
+  }
+  .side-container{
+    display: flex;
+flex-flow: column wrap;
+gap: 10px;
+max-width: 100%;
+width: 25%;
+background-color: #1B263B;
+  }
+  }
 .navbar{
   display: flex;
   flex-direction: row;
@@ -13,20 +50,10 @@
   flex-flow: row wrap;
 }
 .main-container{
-  display: flex;
-  flex-flow: row wrap;
-gap: 10px;
-max-width: 100%;
-width: 75%;
-background-color: #778DA9;
+
   }
 .side-container{
-  display: flex;
-flex-flow: column wrap;
-gap: 10px;
-max-width: 100%;
-width: 25%;
-background-color: #1B263B;
+ 
   }
 .box{
   display: flex;
@@ -59,6 +86,7 @@ background-color: #1B263B;
  min-height: 100px;
  padding: 20px;
  margin: 20px;
+ max-width: 100%;
 }
 .plate:hover {
   transform: translate(20px, 20px);
@@ -124,6 +152,7 @@ justify-content: center;
   max-height: 100px;
   max-width: 100px;
   margin: 5px;
+  float: left;
 
 }
 .forsale-image:hover{
@@ -132,6 +161,8 @@ justify-content: center;
 }
 .forsale-container-text{
 word-wrap: normal;
+text-align: justify;
+margin: 10px;
 }
 p{
 
@@ -152,7 +183,6 @@ ul{
   flex-flow: row wrap;
 gap: 10px;
 background-color: #778DA9;
-margin: 20px;
 justify-content: center;
 }
 form{
